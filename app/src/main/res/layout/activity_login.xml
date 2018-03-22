@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.a1508027853.audbucketlist.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:contentDescription="@string/imgLogo"
+        app:srcCompat="@drawable/app_logo" />
+
+    <TextView
+        android:id="@+id/textView_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView_password"
+        android:layout_marginBottom="16dp"
+        android:layout_toLeftOf="@+id/editText_password"
+        android:layout_toStartOf="@+id/editText_password"
+        android:fontFamily="serif-monospace"
+        android:text="@string/editText_user"
+        android:textAllCaps="false"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_login"
+        android:layout_marginBottom="42dp"
+        android:layout_toLeftOf="@+id/editText_password"
+        android:layout_toStartOf="@+id/editText_password"
+        android:fontFamily="serif-monospace"
+        android:text="@string/editText_password"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:fontFamily="serif-monospace"
+        android:text="@string/button_login"
+        android:textColor="@android:color/background_dark"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText_user"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView_username"
+        android:layout_toEndOf="@+id/textView_username"
+        android:layout_toRightOf="@+id/textView_username"
+        android:backgroundTint="@android:color/background_dark"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/holo_red_dark"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView_password"
+        android:layout_alignBottom="@+id/textView_password"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:backgroundTint="@android:color/background_dark"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/holo_red_dark"
+        android:textSize="25sp" />
+
+</RelativeLayout>

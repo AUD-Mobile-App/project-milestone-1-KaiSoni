@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AUD Bucket List</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_text">Login Page</string>
+    <string name="usename_text">User Name</string>
+    <string name="password_text">Password</string>
+    <string name="button_login">Login</string>
+    <string name="title_activity_bucket_list">AUD Bucket List</string>
+    <string name="title_activity_add_item">Add Item</string>
+    <string name="imgLogo">App Logo</string>
+    <string name="btnSave">Save</string>
+    <string name="editText_user">Username: </string>
+    <string name="editText_password">Password: </string>
+    <string name="checkbox">Bucket List Item</string>
+    <string name="item_date">Due Date of Item</string>
+    <string name="txtTBA">Functionality to be added (* click save to return to previous page)</string>
+
+
+</resources>
