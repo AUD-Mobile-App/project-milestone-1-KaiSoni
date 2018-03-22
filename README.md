@@ -14,6 +14,6 @@ For Login Page, use the following details to access the application:
   * Floating Action Button presented in the main list screen, which will take you to an AddItemActivity page when clicked upon.
   * The AddItemActivity page is empty now, with further functionalities to be added in the next milestone.
 
-project-milestone-1-KaiSoni created by GitHub Classroom
+
 
 
